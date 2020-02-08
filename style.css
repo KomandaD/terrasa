@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+   font-family: 'Marck Script', cursive;
+   /* font-size: 40px; */
+    background: url(img/fon/f02.jpg);
+    background-size: 100% 100%;
+    
+}
+a {
+    transition: 0.2s;
+}
+
+.topPage {margin: 80px auto 0;
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+.topPage img {
+    width: 700px;
+    margin-top: -150px;
+}
+/* ******************
+        HEADER
+   ****************** */
+header {display: grid;
+     grid-template-columns: 200px 8fr;
+    grid-column-gap: 10px;
+    top: 0;
+   position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+
+nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: capitalize;
+    justify-content: space-around;
+    font-size: 35px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    color: #34BAC6;
+}
+
+
+nav p:hover {
+    color: #34BAC6;
+}
+
+
+
+/* ******************
+        ABOUT US
+   ****************** */
+
+.bbb {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 24px;
+    text-align: center;
+}
+/* ******************
+        MENU
+   ****************** */
+.blockTitle {
+    text-align: center;
+    font-size: 42px;
+}
+.menu {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+.menuButton {
+    width: 20%;
+    margin-right: 20px;
+}
+.menuButton div:hover {
+    
+    color: #000;
+}
+.menuButton div {
+    padding-left: 5px;
+    color: #34BAC6;
+    font-size: 28px;
+    margin-bottom: 1px;
+    font-weight: 700;
+    
+}
+.menuImage {
+    width: 80%;
+}
+.menuImage img {
+   max-width: 90%;
+}
+/* ******************
+        GOOGLE MAPS
+   ****************** */
+.googleMaps {
+    text-align: center;
+}
+
+
+/* ******************
+        FOOTER
+   ****************** */
+.footer p {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+.footer {
+    margin: 0px auto 30px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer a:hover {
+    color: #34BAC6;
+}
+.pp {
+    opacity: 0;
+}
+/* @media only screen and (max-width : 1300px) {
+    .headerLog img {
+   max-width: 100%;
+    }
+} */
